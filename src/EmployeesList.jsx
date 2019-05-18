@@ -4,7 +4,6 @@ import { Image, List } from 'semantic-ui-react'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import * as employeesActions from './state/actions/employeesActions'
-import employees from './state/reducers/employeesReducer';
 
 
 

@@ -1,10 +1,10 @@
 import initialState from '../store/initialState'
-import {FETCH_EMPLOYEES} from '../actions/actionTypes'
+import { RECEIVE_EMPLOYEES } from '../actions/actionTypes'
 
 const employees = (state = initialState, action) => {
   let newState;
   switch (action.type) {
-    case FETCH_EMPLOYEES:
+    case RECEIVE_EMPLOYEES:
       newState = action;
       console.log('performing fetch employees action Action')
       return newState;
