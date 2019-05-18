@@ -1,9 +1,10 @@
 import React from 'react';
+import EmployeesList from './EmployeesList'
 
 function App() {
   return (
     <>
-      <h1>Hello again</h1>
+      <EmployeesList />
     </>
   );
 }
