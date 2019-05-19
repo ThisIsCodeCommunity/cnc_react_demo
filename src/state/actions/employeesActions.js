@@ -14,4 +14,4 @@ const fetchEmployees = () => {
   };
 }
 
-export { receiveEmployees, fetchEmployees }
+export { fetchEmployees }
